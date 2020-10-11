@@ -9,7 +9,7 @@
   "medio_conservacion" : "Digital",
   "ubicacion" : "AWS",
   "owner" : "MARITZA",
-  "estado" : "",
+  "estado" : "Activo",
   "confidencialidad" : "Alto",
   "integridad" : "Alto",
   "disponibilidad" : "Alto",
@@ -141,6 +141,6 @@
   "confidencialidad" : "Bajo",
   "integridad" : "Bajo",
   "disponibilidad" : "Bajo",
-  "criticidad" : "Bajo"
+  "criticidad" : "Alto"
   }
  ]

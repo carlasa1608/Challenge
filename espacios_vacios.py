@@ -28,6 +28,7 @@ def arreglar_espacios():
                     for c in range(12):
                         if insumo_json[c][a] == " ":
                             espacio_blanco = c
+                            insumo_json[c][a] = "Espacio vacio"
             elif insumo_json[13][a] == " ":
                 new_table[13][a] = "Alto"
             else:

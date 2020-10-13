@@ -25,7 +25,7 @@ for l in range(long_l):
     emailMsg = mensaje_email[l]
     # create email message
     mimeMessage = MIMEMultipart()
-    mimeMessage['to'] = destinatario_email[l][1];destinatario_email[l][2]
+    mimeMessage['to'] = destinatario_email[l][1]
     mimeMessage['subject'] = 'Revalidación anual clasificación de las bases de datos'
     mimeMessage.attach(MIMEText(emailMsg, 'plain'))
       

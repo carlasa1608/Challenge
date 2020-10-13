@@ -8,7 +8,7 @@ info_clas_alto = espacios_vacios.arreglar_espacios()
 info_funcionarios = leer_insumos.cargar_excel()
 
 def cuerpo_correo():
-    global matriz_estructura
+    global cuerpo_mail
     owners = info_clas_alto[8].values.tolist()
     estado = info_clas_alto[9].values.tolist()
     criticidad = info_clas_alto[13].values.tolist()
